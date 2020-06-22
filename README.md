@@ -1,4 +1,4 @@
-# premileal-docker - Pasos para correr la apliación usando Docker.
+# premileal-docker - Pasos para correr la aplicación usando Docker.
 
 En primer lugar, se deben descargar las imagenes que se mencionan a continuación para poder correr la aplicación.
 
@@ -12,7 +12,11 @@ Luego, escoger alguna carpeta de su computador que sea conveniente y clonar este
 
 git clone https://github.com/RafaelMendezUCAB/premileal-docker.git
 
-Abrir la consola de comando y situarse en dicha carpeta para así ejecutar el siguiente comando:
+Situarse dentro de la nueva carpeta que se ha creado: 
+
+cd premileal-docker
+
+Ejecutar el siguiente comando:
 
 docker-compose up
 
