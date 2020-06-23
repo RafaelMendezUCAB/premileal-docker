@@ -4,7 +4,7 @@ services:
 
     web:
         container_name: "fe"
-        image: "rafa98/premileal-front"
+        image: "rafa98/premileal-front:front-v1"
         ports: 
             - "8080:8080"
         environment: 
@@ -14,7 +14,7 @@ services:
 
     api:
         container_name: "be"
-        image: "rafa98/premileal-back"
+        image: "rafa98/premileal-back:back-v1"
         ports: 
             - "3000:3000"
         environment: 
@@ -27,7 +27,7 @@ services:
             - database
 
     database: 
-        image: "rafa98/premileal-database"        
+        image: "rafa98/premileal-database:database-v1"        
         environment: 
             POSTGRES_PASSWORD: 12345
             POSTGRES_USER: postgres
